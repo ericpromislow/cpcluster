@@ -1,0 +1,5 @@
+#!/bin/bash
+gem uninstall cpcluster
+gem build cpcluster.gemspec 
+gem install cpcluster-0.0.20.gem 
+ruby test/simple_example.rb
